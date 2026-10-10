@@ -1,0 +1,21 @@
+CC BY 4.0 DEED — DATA LICENSE
+
+Copyright (c) 2026 The PatentChemist Authors
+
+The datasets and benchmark in this repository —
+  data/interpat_14m.parquet (InterPat-14M),
+  data/intrapat_30k.parquet (IntraPat-30K),
+  data/patentees.txt (patentee whitelist),
+  data/zo19/zo19_seeds.csv and data/zo19/zo19_targets.csv (PAC benchmark)
+are made available under the terms of the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+You are free to share and adapt these materials for any purpose, provided you
+give appropriate credit, provide a link to the license, and indicate if
+changes were made.
+
+These collections are derived from SureChEMBL (https://www.surechembl.org)
+and are released in accordance with SureChEMBL's original license terms.
+The PatentChemist model weights are released under CC BY 4.0 as well.

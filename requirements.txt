@@ -1,0 +1,6 @@
+torch>=2.0
+numpy
+pandas
+pyarrow
+rdkit>=2023.09
+pysmilesutils  # pip install git+https://github.com/MolecularAI/pysmilesutils.git

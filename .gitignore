@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.npy
+runs/
+*.log
+.ipynb_checkpoints/
+
+# large release assets (distributed via GitHub Releases, not stored in git)
+data/interpat_14m.parquet
+weights/patentchemist/best.ckpt

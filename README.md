@@ -50,10 +50,10 @@ Both scripts save raw `best.pt` and `best.ckpt` (`{state_dict, hyper_parameters}
 
 ## Large files
 
-`data/interpat_14m.parquet` (~193 MB) and `weights/patentchemist/best.ckpt` (760 MB) exceed GitHub's 100 MB per-file limit and are distributed as a single release asset. After cloning, download and unpack it in the repository root:
+`data/interpat_14m.parquet` (~193 MB) and `weights/patentchemist/best.ckpt` (758 MB) exceed GitHub's 100 MB per-file limit and are distributed as release assets. After cloning, download them into place:
 
 ```bash
-wget -O large-files.zip https://github.com/Haomiaowu/PatentChemist/releases/download/v1.0/large-files.zip
-unzip -o large-files.zip && rm large-files.zip
+wget -O data/interpat_14m.parquet https://github.com/Haomiaowu/PatentChemist/releases/download/v1.0/interpat_14m.parquet
+wget -O weights/patentchemist/best.ckpt https://github.com/Haomiaowu/PatentChemist/releases/download/v1.0/best.ckpt
 ```
 
